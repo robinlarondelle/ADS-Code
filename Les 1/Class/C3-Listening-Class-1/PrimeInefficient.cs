@@ -11,6 +11,12 @@
  *  We have a while loop in a while loop.
  *  This means for every n we search, the nested while loop has to
  *  loop n times, or n^2 times
+ *
+ *  This is a very time consuming algorithm, but its memory-usage is very
+ *  constant.
+ *
+ *  Complexity: O(n^~1,9)
+ *  Time:       O(1) (constant)
  */
  
 namespace C3_Listening_Class_1

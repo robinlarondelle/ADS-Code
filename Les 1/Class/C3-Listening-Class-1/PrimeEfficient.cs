@@ -9,6 +9,12 @@
  *  We know you can check for the prime of of a number by
  *  Dividing the number by its root. 17*19 = 19*17, so we
  *  don't want to double check that combination!
+ *
+ *  This is quite an improvement in time-management compared to the
+ *  Inefficient prime-searcher, and it has a very efficient memory-management
+ *
+ *  Complexity: O(n^~1,4)
+ *  Memory:     O(1) (constant)
  */
 
 namespace C3_Listening_Class_1

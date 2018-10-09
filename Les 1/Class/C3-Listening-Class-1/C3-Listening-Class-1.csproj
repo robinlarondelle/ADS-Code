@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>C3_Listening_Class_1</RootNamespace>
-    <StartupObject>C3_Listening_Class_1.PrimeEfficient</StartupObject>
+    <StartupObject>C3_Listening_Class_1.PrimeEratosthenes</StartupObject>
     <ApplicationIcon />
   </PropertyGroup>
 
