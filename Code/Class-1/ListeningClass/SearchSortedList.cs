@@ -44,7 +44,7 @@ namespace ADS.ListeningClass
             while (low<=high)
             {
                 //Create the center of the array
-                int center = (low + (high - low)) / 2;
+                int center = low + (high - low) / 2;
 
                 //If the value of the key is smaller than the value
                 //at center, we lower the upper bound to the value of

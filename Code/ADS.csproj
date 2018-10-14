@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>ADS</RootNamespace>
-    <StartupObject>ADS.Homework.Opdracht3</StartupObject>
+    <StartupObject>ADS.Homework.Opdracht4</StartupObject>
     <ApplicationIcon />
     <AssemblyName>ADS</AssemblyName>
   </PropertyGroup>
