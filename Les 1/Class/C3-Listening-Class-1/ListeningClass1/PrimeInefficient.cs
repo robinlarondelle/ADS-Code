@@ -19,7 +19,7 @@
  *  Time:       O(1) (constant)
  */
  
-namespace C3_Listening_Class_1
+namespace C3_Listening_Class_1.ListeningClass1
 {
     class PrimeInefficient
     {

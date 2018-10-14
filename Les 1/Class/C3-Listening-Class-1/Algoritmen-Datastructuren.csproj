@@ -4,8 +4,12 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>C3_Listening_Class_1</RootNamespace>
-    <StartupObject>C3_Listening_Class_1.PrimeEratosthenes</StartupObject>
+    <StartupObject>C3_Listening_Class_1.ComplexityExamples</StartupObject>
     <ApplicationIcon />
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="HomeworkClass1\" />
+  </ItemGroup>
 
 </Project>

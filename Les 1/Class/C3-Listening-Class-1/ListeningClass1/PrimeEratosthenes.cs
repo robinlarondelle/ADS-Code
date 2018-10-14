@@ -17,13 +17,13 @@
  *  Memory:     O(n)
  */
 
-namespace C3_Listening_Class_1
+namespace C3_Listening_Class_1.ListeningClass1
 {
     class PrimeEratosthenes
     {
         private static void Main(string[] args)
         {
-            int MAX = 1000000000;
+            int MAX = 5000;
 
             //This is the array in which the booleans (prime or not) are stored
             bool[] divisorFound = new bool[MAX];
