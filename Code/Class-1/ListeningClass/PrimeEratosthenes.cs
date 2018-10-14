@@ -17,7 +17,7 @@
  *  Memory:     O(n)
  */
 
-namespace C3_Listening_Class_1.ListeningClass1
+namespace ADS.ListeningClass
 {
     class PrimeEratosthenes
     {

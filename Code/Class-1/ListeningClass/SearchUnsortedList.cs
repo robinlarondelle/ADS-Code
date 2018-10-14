@@ -18,7 +18,7 @@
  *  Complexity: O(n) (this is called a linear complexity)
  */
 
-namespace C3_Listening_Class_1.ListeningClass1
+namespace ADS.ListeningClass
 {
     class SearchUnsortedList
     {

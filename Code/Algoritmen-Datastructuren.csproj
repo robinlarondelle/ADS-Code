@@ -1,15 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>C3_Listening_Class_1</RootNamespace>
-    <StartupObject>C3_Listening_Class_1.ComplexityExamples</StartupObject>
+    <RootNamespace>ADS</RootNamespace>
+    <StartupObject>ADS.ListeningClass.ComplexityExamples</StartupObject>
     <ApplicationIcon />
+    <AssemblyName>ADS</AssemblyName>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="HomeworkClass1\" />
-  </ItemGroup>
 
 </Project>
