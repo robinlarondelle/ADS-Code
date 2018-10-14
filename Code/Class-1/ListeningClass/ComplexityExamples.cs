@@ -86,7 +86,7 @@ namespace ADS.ListeningClass
                 /*
                  *  Here we see a n^2 complexity. Because it is a nested loop, our total complexity is O(n^3)
                  *
-                 *  Complexity O(n^3)
+                 *  Complexity O(n^2)
                  */
                 for (int j = 0; j < n*n; j++)
                 {
