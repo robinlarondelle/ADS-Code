@@ -9,4 +9,19 @@
     <AssemblyName>ADS</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Class-7\Homework\" />
+    <Folder Include="Class-7\ListeningClass\" />
+    <Folder Include="Class-6\Homework\" />
+    <Folder Include="Class-6\ListeningClass\" />
+    <Folder Include="Class-4\Homework\" />
+    <Folder Include="Class-4\ListeningClass\" />
+    <Folder Include="Class-5\Homework\" />
+    <Folder Include="Class-5\ListeningClass\" />
+    <Folder Include="Class-3\Homework\" />
+    <Folder Include="Class-3\ListeningClass\" />
+    <Folder Include="Class-2\Homework\" />
+    <Folder Include="Class-2\ListeningClass\" />
+  </ItemGroup>
+
 </Project>
