@@ -23,7 +23,7 @@
 
 namespace ADS.ListeningClass
 {
-    class SearchSortedList
+    class BinarySearch
     {
         private static void Main(string[] args)
         {

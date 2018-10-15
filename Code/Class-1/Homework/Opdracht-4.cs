@@ -7,7 +7,7 @@ using System;
 namespace ADS.Homework
 {
     /*
-     * For more information about this algorithm see ListeningClass.SearchSortedList.cs
+     * For more information about this algorithm see ListeningClass.BinarySearch.cs
      */
     class Opdracht4
     {

@@ -20,7 +20,7 @@
 
 namespace ADS.ListeningClass
 {
-    class SearchUnsortedList
+    class LinearSearch
     {
         private static void Main(string[] args)
         {
