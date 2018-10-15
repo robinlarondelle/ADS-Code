@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace ADS.ListeningClass
 {
-    class BucketSearch
+    class BucketSort
     {
         private static void Main(string[] args)
         {
