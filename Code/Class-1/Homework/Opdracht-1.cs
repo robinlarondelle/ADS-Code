@@ -9,7 +9,7 @@ namespace ADS.Homework
 {
     class Opdracht1
     {
-        private static void Main(string[] args)
+        public void Run()
         {
             int n = 100;
             Console.WriteLine("Method A takes {0} ticks, with n = {1}", A(n), n);
@@ -23,7 +23,6 @@ namespace ADS.Homework
             Console.WriteLine("Method B takes {0} ticks, with n = {1}", B(n), n);
             Console.WriteLine("Method C takes {0} ticks, with n = {1}", C(n), n);
             Console.WriteLine("Method D takes {0} ticks, with n = {1}", D(n), n);
-            Console.ReadKey();
         }
 
         /*
@@ -34,7 +33,7 @@ namespace ADS.Homework
          *  If n gets bigger, the memory consumption stays the same.
          *  memory-complexity -> O(1) (constant)
          */
-        private static long A(int n)
+        private long A(int n)
         {
             long sum = 0;
             Stopwatch stopwatch = Stopwatch.StartNew();
@@ -55,7 +54,7 @@ namespace ADS.Homework
          *  If we make n really big, the amount of memory needed stays the same
          *  memory-complexity -> O(1)
          */
-        private static long B(int n)
+        private long B(int n)
         {
             long sum = 0;
             Stopwatch stopwatch = Stopwatch.StartNew();
@@ -78,7 +77,7 @@ namespace ADS.Homework
          *  If n is really big, the memory needed stays the same
          *  memory-complexity -> O(1)
          */
-        private static long C(int n)
+        private long C(int n)
         {
             long sum = 0;
             Stopwatch stopwatch = Stopwatch.StartNew();
@@ -102,7 +101,7 @@ namespace ADS.Homework
          *  The memory usage stays the same when n increases
          *  memory-complexity = O(1)
          */
-        private static long D(int n)
+        private long D(int n)
         {
             long sum = 0;
             Stopwatch stopwatch = Stopwatch.StartNew();

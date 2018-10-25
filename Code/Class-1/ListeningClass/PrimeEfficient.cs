@@ -21,7 +21,7 @@ namespace ADS.ListeningClass
 {
     class PrimeEfficient
     {
-        private static void Main(string[] args)
+        public void Run()
         {
             //Search every prime under 1.000.000
             int prime = 3;
@@ -33,10 +33,10 @@ namespace ADS.ListeningClass
                 prime += 2;
             }
 
-            Console.ReadLine();
+            
         }
 
-        private static bool IsPrime(int p)
+        private bool IsPrime(int p)
         {
             int input = p;
 

@@ -10,7 +10,7 @@ namespace ADS.Homework
 {
     class Opdracht3
     {
-        private static void Main(string[] args)
+        public void Run()
         {
             int n = 1000000;
 
@@ -35,7 +35,7 @@ namespace ADS.Homework
             Console.WriteLine("The time it took to calculate with the inefficient algorithm: {0}, with n = {1}", MathInefficient(n), n);
             Console.WriteLine("The time it took to calculate with the improved algorithm: {0}, with n = {1}", MathImproved(n), n);
 
-            Console.ReadKey();
+            
         }
 
         /*
@@ -52,7 +52,7 @@ namespace ADS.Homework
          *  If n becomes really big, the amount of memory used, doesnt become any bigger
          *  memory-complexity: O(1)
          */
-        private static double MathInefficient(int n)
+        private double MathInefficient(int n)
         {
             double sum = 0;
             double exponential = 0;
@@ -91,7 +91,7 @@ namespace ADS.Homework
          *  If n becomes really big, the amount of memory used, doesnt become any bigger
          *  memory-complexity: O(1) 
          */
-        private static double MathImproved(int n)
+        private double MathImproved(int n)
         {
             double sum = 0;
 

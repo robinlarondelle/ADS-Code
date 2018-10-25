@@ -5,13 +5,13 @@ namespace ADS.ListeningClass
 {
     class BucketSort
     {
-        private static void Main(string[] args)
+        public void Run()
         {
             int[] ints = { 1, 3, 4, 2, 2, 4, 3, 1, 3, 2, 4, 2, 3, 4, 1, 2, 3, 2, 4 };
             SortList(ints);
         }
 
-        private static int[] SortList(int[] ints)
+        private int[] SortList(int[] ints)
         {
             int lowest = ints.Min();
             int highest = ints.Max();

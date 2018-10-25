@@ -3,7 +3,7 @@
  */
 namespace ADS.Homework
 {
-    class Opdracht_5
+    class Opdracht5
     {
          /*
           *     Check code in ListeningClass.BucketSort.cs

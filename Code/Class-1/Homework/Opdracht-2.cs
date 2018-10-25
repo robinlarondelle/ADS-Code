@@ -9,7 +9,7 @@ namespace ADS.Homework
 {
     class Opdracht2
     {
-        private static void Main(string[] args)
+        public void Run()
         {
             int n = 10;
             int m = 10;
@@ -19,7 +19,7 @@ namespace ADS.Homework
                 NestedForLoops(n, m, p), n, m, p);
             Console.WriteLine("The NormalForLoops loops {0} amount of times with n = {1}, m = {2}, p = {3}",
                 NormalForLoops(n, m, p), n, m, p);
-            Console.ReadLine();
+            
 
         }
 
@@ -29,7 +29,7 @@ namespace ADS.Homework
          *
          *  time-complexity: O(n*m*p)
          */
-        private static long NestedForLoops(int n, int m, int p)
+        private long NestedForLoops(int n, int m, int p)
         {
             long sum = 0;
             Stopwatch stopwatch = Stopwatch.StartNew();
@@ -53,7 +53,7 @@ namespace ADS.Homework
          *
          *  time-complexity: O(n+m+p)
          */
-        private static long NormalForLoops(int n, int m, int p)
+        private long NormalForLoops(int n, int m, int p)
         {
             long sum = 0;
             Stopwatch stopwatch = Stopwatch.StartNew();

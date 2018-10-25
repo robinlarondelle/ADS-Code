@@ -9,7 +9,7 @@ namespace ADS.ListeningClass
 {
     class ComplexityExamples
     {
-        private static void Main(string[] args)
+        public void Run()
         {
             int n = 100;
 
@@ -17,7 +17,7 @@ namespace ADS.ListeningClass
             Console.WriteLine("Amount of times the loop in SquaredComplexity loops: {0}", SquaredComplexity(n));
             Console.WriteLine("Amount of times the loop in PowerOfThreeComplexity loops: {0}", PowerOfThreeComplexity(n));
 
-            Console.ReadLine();
+            
         }
 
         /*
@@ -26,7 +26,7 @@ namespace ADS.ListeningClass
          *  If you were to double n, the amount of times the loop would have to loop
          *  would be double.
          */
-        private static long LinearComplexity(int n)
+        private long LinearComplexity(int n)
         {
             long sum = 0;
 
@@ -48,7 +48,7 @@ namespace ADS.ListeningClass
          *  So both loops have complexity O(n), but because the inner loop depends on the outer loop
          *  The complexity of the total algorithm is O(n*n) -> O(n^2)
          */
-        private static long SquaredComplexity(int n)
+        private long SquaredComplexity(int n)
         {
             long sum = 0;
 
@@ -68,7 +68,7 @@ namespace ADS.ListeningClass
          *  This algorithm shows that when making n really big, all the finite and small
          *  numbers don't matter any more.
          */
-        private static long PowerOfThreeComplexity(int n)
+        private long PowerOfThreeComplexity(int n)
         {
             long sum = 0;
 

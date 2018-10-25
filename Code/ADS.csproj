@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>ADS</RootNamespace>
-    <StartupObject>ADS.ListeningClass.BucketSearch</StartupObject>
+    <StartupObject>ADS.RunMe</StartupObject>
     <ApplicationIcon />
     <AssemblyName>ADS</AssemblyName>
   </PropertyGroup>
@@ -21,7 +21,6 @@
     <Folder Include="Class-3\Homework\" />
     <Folder Include="Class-3\ListeningClass\" />
     <Folder Include="Class-2\Homework\" />
-    <Folder Include="Class-2\ListeningClass\" />
   </ItemGroup>
 
 </Project>

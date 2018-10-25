@@ -21,7 +21,7 @@ namespace ADS.ListeningClass
 {
     class PrimeEratosthenes
     {
-        private static void Main(string[] args)
+        public void Run()
         {
             int MAX = 5000;
 
@@ -56,7 +56,7 @@ namespace ADS.ListeningClass
                 }
             }
 
-            Console.ReadLine();
+            
         }
     }
 }

@@ -25,7 +25,7 @@ namespace ADS.ListeningClass
 {
     class BinarySearch
     {
-        private static void Main(string[] args)
+        public void Run()
         {
             // Create new int array
             // This is the size of the problem (n)
@@ -35,7 +35,7 @@ namespace ADS.ListeningClass
             Console.WriteLine("Index of 7 is {0}", IndexOf(a, 7));
         }
 
-        private static int IndexOf(int[] a, int key)
+        private int IndexOf(int[] a, int key)
         {
             // Define a lower bound and upper bound index
             int low = 0;

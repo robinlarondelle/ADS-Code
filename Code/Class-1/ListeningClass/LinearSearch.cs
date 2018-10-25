@@ -22,7 +22,7 @@ namespace ADS.ListeningClass
 {
     class LinearSearch
     {
-        private static void Main(string[] args)
+        public void Run()
         {
             // Create int array
             // SIZE OF THE PROBLEM = THE SIZE OF THE ARRAY
@@ -30,10 +30,10 @@ namespace ADS.ListeningClass
             int[] a = {3, 5, 4, 7, 6, 9};
 
             Console.WriteLine("Match! 7 is at index {0}", IndexOf(a, 7));
-            Console.ReadLine();
+            
         }
 
-        private static int IndexOf(int[] a, int key)
+        private int IndexOf(int[] a, int key)
         {
             //Loop through the size of the array
             for (int i = 0; i < a.Length; i++)
