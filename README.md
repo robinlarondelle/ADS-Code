@@ -13,8 +13,8 @@ In de ListeningClass folder plaats ik alle code uit de powerpoints met toelichti
 In de Homework folder plaats ik alle code uit de huiswerkopdrachten met toelichting
 
 ## Starten van het project
-Je start het project door de juiste Main method aan te roepen. Dit doe je zo:
-1. Project (links bovenin)
-2. [Projectnaam] Properties
-3. Startup object
-4. Gewenste class waar je de Main van wilt aanroepen
+Start de ADS solution als je de normale opdrachten wilt bekijken
+Start de FractalRecursion solution als je de code van Erco Argante wilt bekijken.
+
+In de class RunMe.cs staan alle opdrachten en code met de bijbehorende methode Run().
+Comment simpelweg uit waar je niet geinteresseerd in bent, en speel ermee rond!
