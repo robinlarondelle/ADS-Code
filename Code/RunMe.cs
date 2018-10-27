@@ -1,5 +1,6 @@
 ﻿using System;
 using ADS.Class2.Homework;
+using ADS.Class3.ListeningClass;
 
 /*
  * This is the class where you can test everything
@@ -64,8 +65,11 @@ namespace ADS
 //            Class2.Homework.Opdracht3 C2O3 = new Class2.Homework.Opdracht3();
 //            C2O3.Run();
 
-            Class2.Homework.Opdracht4 C2O4 = new Class2.Homework.Opdracht4();
-            C2O4.Run();
+//            Class2.Homework.Opdracht4 C2O4 = new Class2.Homework.Opdracht4();
+//            C2O4.Run();
+
+            Class3.ListeningClass.CallByReference callByReference = new CallByReference();
+            callByReference.Run();
 
             Console.ReadLine();
         }

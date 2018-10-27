@@ -19,7 +19,6 @@
     <Folder Include="Class5\Homework\" />
     <Folder Include="Class5\ListeningClass\" />
     <Folder Include="Class3\Homework\" />
-    <Folder Include="Class3\ListeningClass\" />
   </ItemGroup>
 
 </Project>
