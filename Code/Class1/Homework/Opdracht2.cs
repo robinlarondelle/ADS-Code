@@ -5,7 +5,7 @@
 using System;
 using System.Diagnostics;
 
-namespace ADS.Homework
+namespace ADS.Class1.Homework
 {
     class Opdracht2
     {

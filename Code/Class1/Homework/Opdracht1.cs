@@ -5,7 +5,7 @@ using System.Diagnostics;
  *  Noteer van alle 4 de methodes de reken- en geheugencomplexiteit
  */
 
-namespace ADS.Homework
+namespace ADS.Class1.Homework
 {
     class Opdracht1
     {

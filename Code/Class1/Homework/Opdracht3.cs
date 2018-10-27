@@ -6,7 +6,7 @@ using System.Diagnostics;
  *  2. Geef van beide algoritmen de geheugen- en rekencomplexiteit
  *  3. Welke algemene regel kun je hier uit afleiden?
  */
-namespace ADS.Homework
+namespace ADS.Class1.Homework
 {
     class Opdracht3
     {

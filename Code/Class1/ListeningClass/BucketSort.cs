@@ -1,7 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 
-namespace ADS.ListeningClass
+namespace ADS.Class1.ListeningClass
 {
     class BucketSort
     {

@@ -17,7 +17,7 @@
  *  Memory:     O(1) (constant)
  */
 
-namespace ADS.ListeningClass
+namespace ADS.Class1.ListeningClass
 {
     class PrimeEfficient
     {

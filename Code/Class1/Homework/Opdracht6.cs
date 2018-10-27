@@ -3,9 +3,10 @@
  */
 
 //TODO Finish the magic square
+
 using System;
 
-namespace ADS.Homework
+namespace ADS.Class1.Homework
 {
     class Opdracht6
     {

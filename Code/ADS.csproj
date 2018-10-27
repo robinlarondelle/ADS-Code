@@ -10,17 +10,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Class-7\Homework\" />
-    <Folder Include="Class-7\ListeningClass\" />
-    <Folder Include="Class-6\Homework\" />
-    <Folder Include="Class-6\ListeningClass\" />
-    <Folder Include="Class-4\Homework\" />
-    <Folder Include="Class-4\ListeningClass\" />
-    <Folder Include="Class-5\Homework\" />
-    <Folder Include="Class-5\ListeningClass\" />
-    <Folder Include="Class-3\Homework\" />
-    <Folder Include="Class-3\ListeningClass\" />
-    <Folder Include="Class-2\Homework\" />
+    <Folder Include="Class7\Homework\" />
+    <Folder Include="Class7\ListeningClass\" />
+    <Folder Include="Class6\Homework\" />
+    <Folder Include="Class6\ListeningClass\" />
+    <Folder Include="Class4\Homework\" />
+    <Folder Include="Class4\ListeningClass\" />
+    <Folder Include="Class5\Homework\" />
+    <Folder Include="Class5\ListeningClass\" />
+    <Folder Include="Class3\Homework\" />
+    <Folder Include="Class3\ListeningClass\" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ADS.ListeningClass
+namespace ADS.Class2.ListeningClass
 {
     class PrintExamples
     {

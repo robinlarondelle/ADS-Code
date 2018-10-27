@@ -5,7 +5,7 @@
  *  Every algorithm does the same: it counts the amount of times it loops *
  */
 
-namespace ADS.ListeningClass
+namespace ADS.Class1.ListeningClass
 {
     class ComplexityExamples
     {

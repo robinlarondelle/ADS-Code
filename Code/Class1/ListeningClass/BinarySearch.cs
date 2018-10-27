@@ -21,7 +21,7 @@
  *  Complexity = O(log(n))  
  */
 
-namespace ADS.ListeningClass
+namespace ADS.Class1.ListeningClass
 {
     class BinarySearch
     {

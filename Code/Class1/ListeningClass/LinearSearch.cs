@@ -18,7 +18,7 @@
  *  Complexity: O(n) (this is called a linear complexity)
  */
 
-namespace ADS.ListeningClass
+namespace ADS.Class1.ListeningClass
 {
     class LinearSearch
     {

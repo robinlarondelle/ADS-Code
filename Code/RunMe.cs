@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using ADS.Homework;
-using ADS.ListeningClass;
 
 /*
  * This is the class where you can test everything

@@ -1,7 +1,7 @@
 ﻿/*
  *  Geef een implementatie van een bucket-sort
  */
-namespace ADS.Homework
+namespace ADS.Class1.Homework
 {
     class Opdracht5
     {

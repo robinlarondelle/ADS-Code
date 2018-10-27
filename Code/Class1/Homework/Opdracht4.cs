@@ -4,7 +4,7 @@
 
 using System;
 
-namespace ADS.Homework
+namespace ADS.Class1.Homework
 {
     /*
      * For more information about this algorithm see ListeningClass.BinarySearch.cs
