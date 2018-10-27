@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ADS.Class1.Homework;
-using ADS.Class1.ListeningClass;
-using Opdracht2 = ADS.Class2.Homework.Opdracht2;
+using ADS.Class2.Homework;
 
 /*
  * This is the class where you can test everything
@@ -62,8 +58,14 @@ namespace ADS
 //            Class2.Homework.Opdracht1 C2O1 = new Class2.Homework.Opdracht1();
 //            C2O1.Run();
 
-            Class2.Homework.Opdracht2 C2O2 = new Class2.Homework.Opdracht2();
-            C2O2.Run();
+//            Class2.Homework.Opdracht2 C2O2 = new Class2.Homework.Opdracht2();
+//            C2O2.Run();
+
+//            Class2.Homework.Opdracht3 C2O3 = new Class2.Homework.Opdracht3();
+//            C2O3.Run();
+
+            Class2.Homework.Opdracht4 C2O4 = new Class2.Homework.Opdracht4();
+            C2O4.Run();
 
             Console.ReadLine();
         }
