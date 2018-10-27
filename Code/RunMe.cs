@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using ADS.Class1.Homework;
 using ADS.Class1.ListeningClass;
+using Opdracht2 = ADS.Class2.Homework.Opdracht2;
 
 /*
  * This is the class where you can test everything
@@ -16,25 +17,25 @@ namespace ADS
         {
 
             //Assignments
-//            Opdracht1 opdracht1 = new Opdracht1();
-//            opdracht1.Run();
+//            Opdracht1 C1O1 = new Opdracht1();
+//            C1O1.Run();
 //
-//            Opdracht2 opdracht2 = new Opdracht2();
-//            opdracht2.Run();
+//            Opdracht2 C1O2 = new Opdracht2();
+//            C1O2.Run();
 //
-//            Opdracht3 opdracht3 = new Opdracht3();
-//            opdracht3.Run();
+//            Opdracht3 C1O3 = new Opdracht3();
+//            C1O3.Run();
 //
-//            Opdracht4 opdracht4 = new Opdracht4();
-//            opdracht4.Run();
+//            Opdracht4 C1O4 = new Opdracht4();
+//            C1O4.Run();
 
 //            Missing code here, see Opdracht5.cs for more information
-//            Opdracht5 opdracht5 = new Opdracht5();
-//            opdracht5.Run();
+//            Opdracht5 C1O5 = new Opdracht5();
+//            C1O5.Run();
 
 //            TODO bugfix opdracht 6
-//            Opdracht6 opdracht6 = new Opdracht6();
-//            opdracht6.Run();
+//            Opdracht6 C1O6 = new Opdracht6();
+//            C1O6.Run();
 
 //            Listening class
 //            BinarySearch binarySearch = new BinarySearch();
@@ -58,8 +59,11 @@ namespace ADS
 //            PrimeInefficient primeInefficient = new PrimeInefficient();
 //            primeInefficient.Run();
 
-            Class2.Homework.Opdracht1 C2O1 = new Class2.Homework.Opdracht1();
-            C2O1.Run();
+//            Class2.Homework.Opdracht1 C2O1 = new Class2.Homework.Opdracht1();
+//            C2O1.Run();
+
+            Class2.Homework.Opdracht2 C2O2 = new Class2.Homework.Opdracht2();
+            C2O2.Run();
 
             Console.ReadLine();
         }
