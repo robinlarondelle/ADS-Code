@@ -68,8 +68,11 @@ namespace ADS
 //            Class2.Homework.Opdracht4 C2O4 = new Class2.Homework.Opdracht4();
 //            C2O4.Run();
 
-            Class3.ListeningClass.CallByReference callByReference = new CallByReference();
-            callByReference.Run();
+//            CallByReference callByReference = new CallByReference();
+//            callByReference.Run();
+
+            TypesExercise TypesExercise = new TypesExercise();
+            TypesExercise.Run();
 
             Console.ReadLine();
         }
