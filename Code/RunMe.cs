@@ -75,8 +75,11 @@ namespace ADS
 //            TypesExercise TypesExercise = new TypesExercise();
 //            TypesExercise.Run();
 
-            MyStack myStack = new MyStack();
-            myStack.Run();
+//            MyStack myStack = new MyStack();
+//            myStack.Run();
+
+            InBalance inBalance = new InBalance();
+            inBalance.Run();
 
             Console.ReadLine();
         }

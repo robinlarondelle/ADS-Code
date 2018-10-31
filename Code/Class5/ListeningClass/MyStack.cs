@@ -19,7 +19,7 @@ namespace ADS.Class5.ListeningClass
             Console.WriteLine("Value of the top item from the stack: {0}", si.Peek());
         }
 
-        class StackImplementation<T> : IMyStack<T>
+        public class StackImplementation<T> : IMyStack<T>
         {
             private LinkedList<T> linkedList = new LinkedList<T>();
 
