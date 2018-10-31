@@ -48,7 +48,7 @@ namespace ADS.Class3.ListeningClass
             a.x = 7;
             Console.WriteLine("Value of x in Test a: {0}", a.x);
             Console.WriteLine("Value of x in Test b: {0}", b.x);
-
+             
         }
 
         private class Test

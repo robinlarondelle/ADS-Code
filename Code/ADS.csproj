@@ -15,9 +15,7 @@
     <Folder Include="Class6\Homework\" />
     <Folder Include="Class6\ListeningClass\" />
     <Folder Include="Class4\Homework\" />
-    <Folder Include="Class4\ListeningClass\" />
     <Folder Include="Class5\Homework\" />
-    <Folder Include="Class5\ListeningClass\" />
     <Folder Include="Class3\Homework\" />
   </ItemGroup>
 

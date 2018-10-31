@@ -1,6 +1,7 @@
 ﻿using System;
 using ADS.Class2.Homework;
 using ADS.Class3.ListeningClass;
+using ADS.Class5.ListeningClass;
 
 /*
  * This is the class where you can test everything
@@ -13,16 +14,16 @@ namespace ADS
         public static void Main(string[] args)
         {
 
-            //Assignments
+//            Assignments
 //            Opdracht1 C1O1 = new Opdracht1();
 //            C1O1.Run();
-//
+
 //            Opdracht2 C1O2 = new Opdracht2();
 //            C1O2.Run();
-//
+
 //            Opdracht3 C1O3 = new Opdracht3();
 //            C1O3.Run();
-//
+
 //            Opdracht4 C1O4 = new Opdracht4();
 //            C1O4.Run();
 
@@ -37,22 +38,22 @@ namespace ADS
 //            Listening class
 //            BinarySearch binarySearch = new BinarySearch();
 //            binarySearch.Run();
-//            
+            
 //            BucketSort bucketSort = new BucketSort();
 //            bucketSort.Run();
-//
+
 //            ComplexityExamples complexityExamples = new ComplexityExamples();
 //            complexityExamples.Run();
-//
+
 //            LinearSearch linearSearch = new LinearSearch();
 //            linearSearch.Run();
-//
+
 //            PrimeEfficient primeEfficient = new PrimeEfficient();
 //            primeEfficient.Run();
-//
+
 //            PrimeEratosthenes primeEratosthenes = new PrimeEratosthenes();
 //            primeEratosthenes.Run();
-//
+
 //            PrimeInefficient primeInefficient = new PrimeInefficient();
 //            primeInefficient.Run();
 
@@ -71,8 +72,11 @@ namespace ADS
 //            CallByReference callByReference = new CallByReference();
 //            callByReference.Run();
 
-            TypesExercise TypesExercise = new TypesExercise();
-            TypesExercise.Run();
+//            TypesExercise TypesExercise = new TypesExercise();
+//            TypesExercise.Run();
+
+            MyStack myStack = new MyStack();
+            myStack.Run();
 
             Console.ReadLine();
         }
